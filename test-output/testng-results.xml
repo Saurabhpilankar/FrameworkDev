@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65377" started-at="2020-06-01T11:18:06Z" finished-at="2020-06-01T11:19:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65377" started-at="2020-06-01T11:18:06Z" finished-at="2020-06-01T11:19:12Z">
+      <class name="qaDemo.NavigateHome">
+        <test-method status="PASS" signature="init()[pri:0, instance:qaDemo.NavigateHome@3a82f6ef]" name="init" is-config="true" duration-ms="9948" started-at="2020-06-01T16:48:06Z" finished-at="2020-06-01T16:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="NavigateToHome(java.lang.String, java.lang.String)[pri:0, instance:qaDemo.NavigateHome@3a82f6ef]" name="NavigateToHome" duration-ms="28460" started-at="2020-06-01T16:48:16Z" data-provider="LoginData" finished-at="2020-06-01T16:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefg@hj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHome -->
+        <test-method status="PASS" signature="NavigateToHome(java.lang.String, java.lang.String)[pri:0, instance:qaDemo.NavigateHome@3a82f6ef]" name="NavigateToHome" duration-ms="26374" started-at="2020-06-01T16:48:45Z" data-provider="LoginData" finished-at="2020-06-01T16:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lmnopqrst@hj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHome -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:qaDemo.NavigateHome@3a82f6ef]" name="browserClose" is-config="true" duration-ms="521" started-at="2020-06-01T16:49:11Z" finished-at="2020-06-01T16:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- qaDemo.NavigateHome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

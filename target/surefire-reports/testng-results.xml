@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95175" started-at="2020-06-01T11:20:26Z" finished-at="2020-06-01T11:22:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="95175" started-at="2020-06-01T11:20:26Z" finished-at="2020-06-01T11:22:01Z">
+      <class name="qaDemo.Asserting">
+        <test-method status="PASS" signature="init()[pri:0, instance:qaDemo.Asserting@60addb54]" name="init" is-config="true" duration-ms="23342" started-at="2020-06-01T16:50:26Z" finished-at="2020-06-01T16:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:qaDemo.MenuValidate@6b143ee9]" name="init" is-config="true" duration-ms="15073" started-at="2020-06-01T16:50:49Z" finished-at="2020-06-01T16:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:qaDemo.NavigateHome@1936f0f5]" name="init" is-config="true" duration-ms="2983" started-at="2020-06-01T16:51:04Z" finished-at="2020-06-01T16:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="NavigateToHome()[pri:0, instance:qaDemo.Asserting@60addb54]" name="NavigateToHome" duration-ms="140" started-at="2020-06-01T16:52:00Z" finished-at="2020-06-01T16:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHome -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:qaDemo.Asserting@60addb54]" name="browserClose" is-config="true" duration-ms="263" started-at="2020-06-01T16:52:00Z" finished-at="2020-06-01T16:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:qaDemo.MenuValidate@6b143ee9]" name="browserClose" is-config="true" duration-ms="394" started-at="2020-06-01T16:52:01Z" finished-at="2020-06-01T16:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:qaDemo.NavigateHome@1936f0f5]" name="browserClose" is-config="true" duration-ms="319" started-at="2020-06-01T16:52:01Z" finished-at="2020-06-01T16:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- qaDemo.Asserting -->
+      <class name="qaDemo.MenuValidate">
+        <test-method status="PASS" signature="NavigateToHome()[pri:0, instance:qaDemo.MenuValidate@6b143ee9]" name="NavigateToHome" duration-ms="449" started-at="2020-06-01T16:51:07Z" finished-at="2020-06-01T16:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHome -->
+      </class> <!-- qaDemo.MenuValidate -->
+      <class name="qaDemo.NavigateHome">
+        <test-method status="PASS" signature="NavigateToHome(java.lang.String, java.lang.String)[pri:0, instance:qaDemo.NavigateHome@1936f0f5]" name="NavigateToHome" duration-ms="32927" started-at="2020-06-01T16:51:08Z" data-provider="LoginData" finished-at="2020-06-01T16:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefg@hj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHome -->
+        <test-method status="PASS" signature="NavigateToHome(java.lang.String, java.lang.String)[pri:0, instance:qaDemo.NavigateHome@1936f0f5]" name="NavigateToHome" duration-ms="19237" started-at="2020-06-01T16:51:41Z" data-provider="LoginData" finished-at="2020-06-01T16:52:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lmnopqrst@hj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHome -->
+      </class> <!-- qaDemo.NavigateHome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
